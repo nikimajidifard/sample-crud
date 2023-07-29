@@ -37,7 +37,7 @@ namespace Demo.Controllers
         [HttpPost]
         [Route("AddPhone")]
 
-        void AddPhone(phonebook phone) // to add a phone by post method
+        public void AddPhone(phonebook phone) // to add a phone by post method
         {
             appdbcontext.PhonebookEntries.Add(phone);
             appdbcontext.SaveChanges();
@@ -47,7 +47,7 @@ namespace Demo.Controllers
 
         [HttpDelete]
         [Route("DeletePhone")]
-        void DeletePhone(phonebook phone)
+        public void DeletePhone(phonebook phone)
         {
             appdbcontext.PhonebookEntries.Remove(phone);
             appdbcontext.SaveChanges();
