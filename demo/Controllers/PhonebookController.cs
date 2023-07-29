@@ -54,7 +54,13 @@ namespace Demo.Controllers
 
         }
 
-
+        [HttpPut]
+        [Route("UpdatePhone")]
+        public void UpdatePhone(phonebook phone)
+        {
+            appdbcontext.Entry(phone).State = Microsoft.EntityFrameworkCore.EntityState.Modified; 
+            appdbcontext.SaveChanges();
+        }
 
     }
     
