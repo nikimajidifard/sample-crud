@@ -1,2 +1,2 @@
 # sample-crud
-This repository includes the codes and tasks in my backend .Net internship.
+ A sample crud for phonebook by base on MVC architecture is implemented in this repository. 
