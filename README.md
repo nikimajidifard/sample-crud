@@ -1,2 +1,2 @@
 # sample-crud
- A sample crud for phonebook by base on MVC architecture is implemented in this repository. 
+ A sample crud for phonebook base on MVC architecture is implemented in this repository. 
